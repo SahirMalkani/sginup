@@ -100,7 +100,7 @@ var cardsahir =document.getElementById("d0");
 console.log(keys)
 
 cardsahir.innerHTML += `
-<select name="s1" id="s1">
+<select class="form-control"  name="s1" id="s1">
 
 <option value="${keys[0]}">${keys[0]}</option>
 <option value="${keys[1]}">${keys[1]}</option>
